@@ -21,6 +21,7 @@
     </script>
         <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
 <h1 style="text-align: center; vertical-align:middle; margin-top:10%; font-weight: bold; color: white;">Slack username @eMiracle</h1>
+<h2 style="text-align: center; vertical-align:middle; margin-top:10%; font-weight: bold; color: white;">Click on the widget at the bottom right of your screen to wake the bot (trichia) &#128521; </h2>
 </div>
 </div>
 </body>
