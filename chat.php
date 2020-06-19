@@ -252,7 +252,7 @@ Kebbi State Medical Centre, Kalgo:
 08059758886
 08035387653 08000CORONA";
 }else{
-  $reply = 'Sorry, I did not understand these commands. Here is a list of commands I understand: ...';
+  $reply = "Sorry, I did not understand these commands. Enter Help to see a list of what i can do<br> or visit <a href = 'https://covid19.ncdc.gov.ng/'>NCDC's Website</a> for more info";
 }
     $bot->reply($reply);
 
