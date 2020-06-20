@@ -49,11 +49,11 @@ $botman->hears('symptoms', function (BotMan $bot) {
 
 $botman->hears('Help', function (BotMan $bot) {
 
-  $reply = "1. For Covid-19 Live Update in Nigeria, enter 'Covid-19 Update' <br> 2. For State help lines enter 'State Helpline' (replace state with your state)<br> 3. For symptoms enter 'symptoms' <br> 4. To know my writer enter 'Father' ";
+  $reply = "1. For Covid-19 Live Update in Nigeria, enter 'Covid-19 Update' <br> 2. For State help lines enter '<b>State Helpline</b>' (replace state with your state, e.g Imo State Helpline)<br> 3. For symptoms enter 'symptoms' <br> 4. To know my writer enter 'Father' ";
     $bot->reply($reply);
 });
 
-$botman->hears('{state} Helpline', function (BotMan $bot, $state) {
+$botman->hears('{state} State Helpline', function (BotMan $bot, $state) {
 
 
 if ($state=="Benue") {
